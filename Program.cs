@@ -173,7 +173,7 @@ internal class Program
 
         while (state) {
 
-            Console.WriteLine("Do you want to play again? (y/n): ");
+            Console.WriteLine("Willst du nochmal spielen? (y/n): ");
             string answer = Console.ReadLine().ToLower();
 
             if (char.TryParse(answer, out char replay))
